@@ -43,7 +43,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         accessToken.setOnClickListener(this)
         amarylloCloud.setOnClickListener(this)
 
-
        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
            .requestProfile()
            .requestEmail()
